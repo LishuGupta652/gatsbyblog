@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        extension: [`.md`, `.mdx`],
+        extensions: [`.md`, `.mdx`],
         gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-images`,
@@ -44,5 +44,6 @@ module.exports = {
         display: "swap",
       },
     },
+    `gatsby-plugin-styled-components`,
   ],
 }
